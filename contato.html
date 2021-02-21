@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Midian Brandão</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,700;1,200;1,300;1,500&display=swap"
+      rel="stylesheet"/>
+
+      <nav class="nav">
+
+          <a href="index.html">Home</a>
+          <a href="referencias.html">Minhas Referências</a>
+          <a href="contato.html">Contato</a>
+
+      </nav>
+
+  </head>
+  <body >
+
+    <main>
+
+      <h2>Contato</h2>
+      <hr />
+
+      <div class="contato">
+        <div class="subcontato">
+          <img src="./img/whatsapp.png" width="40px" />
+          (21) 99110-8511
+        </div>
+        <div class="subcontato">
+          <img src="./img/email.png" width="40px" />
+          mydyan@hotmail.com
+        </div>
+      </div>
+
+      <form class="form">
+        <div class="nome">
+          <label form="nome"><span>Nome:</span></label>
+          <input name="nome" type="text" placeholder="Digite seu nome " />
+        </div>
+
+        <div class="email">
+          <label form="nome"><span>Email:</span></label>
+          <input type="text" placeholder="Digite seu email " />
+        </div>
+
+        <label id="msg"><span>Mensagem:</span></label>
+
+        <div class="msgarea">
+          <textarea
+            name="msg"
+            type="text"
+            placeholder="Deixe sua mensagem! "
+          ></textarea>
+        </div>
+
+        <button
+          class="btn"
+          onclick="alert('Obrigado pelo contato ! Responderei em breve.')"
+        >
+          Enviar
+        </button>
+      </form>
+    </main>
+
+    <foorter class="rodape">
+      <div class="container"></div>
+      <p class="rodape__paragrafo">&copy;Copyright Midian Brandão - 2021</p>
+    </foorter>
+  </body>
+</html>

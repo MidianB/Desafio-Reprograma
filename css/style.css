@@ -1,0 +1,352 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Source Code Pro", monospace;
+  background-color: #f9e8cc;
+}
+h1{
+    color: #000000;
+    background-color: #f9e8ccc5;
+   
+}
+
+
+nav {
+  background-color: #cd4b0f;
+  align-items: center;
+  height: 65px;
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  text-decoration: #ff5100;
+}
+
+span {
+  font-weight: 700;
+  color: #9d3008;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+
+
+
+ /*pag home*/
+
+ .botao > a,
+.midias-sociais__container-link {
+  text-decoration: none;
+  color: #cd4b0f;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bold;
+}
+
+.botao {
+  margin-top: 2rem;
+  background-color: rgba(255, 255, 255, 0.753);
+  border: #6b8db3 solid 5px;
+  padding: 10px 25px 10px 25px;
+  border-radius: 50px;
+}
+
+.cabecalho {
+  text-align: center;
+  background-image: url("../img/diversidade-inclusao-empresas.jpg");
+  background-size: auto;
+  width: 100%;
+  height: 600px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cabecalho__titulo {
+  font-size: 3rem;
+  margin-bottom: 25px;
+  color: #0d442d;
+}
+
+.cabecalho__texto {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.destaque {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.sobre-mim,
+.midias-sociais {
+  height: 450px;
+  display: flex;
+  align-items: center;
+}
+
+
+.sobre-mim__titulo {
+  font-size: 3rem;
+  color: #6385ab;
+  margin-bottom: 5rem;
+  margin-top: 15rem;
+}
+
+.sobre-mim__descricao,
+.sobre-mim__habilidades {
+  width: 40%;
+  line-height: 1.5;
+}
+
+/*midias sociais*/
+
+.midias-sociais__container {
+  text-align: center;
+  width: 30%;
+  background-color: #698bb1;
+  padding: 15px;
+  border-radius: 30px;
+  margin-top: 20rem;
+  margin-bottom: 10rem;
+  
+}
+
+.midias-sociais__container-img {
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+.midias-sociais__container-link,
+.midias-sociais__container-paragrafo {
+  color: white;
+ 
+}
+
+.midias-sociais__container-paragrafo {
+  margin-top: 10px;
+  font-size: 0.8rem;
+}
+
+
+/*footer*/
+
+.rodape__paragrafo {
+  text-align: center;
+  font-size: 1.3rem;
+  color: white;
+  background-color: #0d442d;
+  height:5.1rem;
+  padding: 1rem;
+}
+
+
+/*pag contato*/
+
+hr{
+    margin-bottom: 5rem;
+}
+.contato {
+    
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+}
+.subcontato {
+  display: inline-block;
+  margin-bottom: 5rem;
+}
+
+.form {
+  color: #cd4b0f;
+  text-align: center;
+  
+
+}
+.form input {
+  width: 400px;
+}
+.btn {
+  width: 90px;
+  background-color: #0d442d;
+  color: white;
+  margin-bottom: 5rem;
+}
+#msg {
+  display: block;
+  color: #cd4b0f;
+  
+}
+textarea {
+  height: 200px;
+  width: 500px;
+  align-items: center;
+}
+
+h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+
+.nome{
+    margin-bottom: 2rem;
+}
+
+.email{
+    margin-bottom: 2rem;
+}
+
+.msgarea{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+/*pag referencias*/
+
+.imgfundo{
+
+    background-image: url(../img/estampa4.jpeg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat:no-repeat ;
+    }
+    
+
+.referenciatitulo{
+    color: #000000;
+    background-color: #f9e8ccc5;
+   padding-top: 0.7rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.7rem;
+
+}
+
+.botaolink {
+    margin-top: 8px;
+    background-color: rgba(241, 241, 195, 0.911);
+    border: #ee4f1f solid 5px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 300px;
+    margin-top: 100px;
+    color: #201f1b;
+    font-style:oblique;
+    
+  }
+
+.martinfoto {
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  margin-left: 7rem;
+  margin-top: 15px;
+}
+.martintexto {
+  background-color: #0d442d;
+  text-align: center;
+  margin-right: 5em;
+  line-height: 1.5;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: auto;
+  color: white;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  border-radius: 50px;
+  padding: 2rem;
+
+}
+
+.mariellefoto {
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  margin-left: 7rem;
+  margin-top: 2rem;
+}
+.marielletexto {
+  background-color: #ff5100;
+  text-align: center;
+  margin-right: 5rem;
+  line-height: 1.5;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: auto;
+  color: white;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  border-radius: 50px;
+  padding: 2rem;
+}
+.abdiastexto {
+  background-color: #5a93d4;
+  text-align: center;
+  margin-right: 5rem;
+  line-height: 1.5;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: auto;
+  color: white;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  border-radius: 50px;
+  padding: 2rem;
+}
+.abdiasfoto {
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  margin-left: 7rem;
+  margin-top: 2rem;
+}
+
+.leliafoto {
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  margin-left: 7rem;
+  margin-top: 2rem;;
+}
+.leliatexto {
+  color: white;
+  background-color: #fc7e6a;
+  text-align: center;
+  margin-right: 5rem;
+  line-height: 1.5;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: auto;
+  border-radius: 50px;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-top: 2rem;
+ margin-bottom: 3rem;
+  padding: 2rem;
+}
+
+
